@@ -1,0 +1,153 @@
+{
+  "title": "Владимир Жириновский",
+  "author": {
+    "name": "Frie",
+    "discordUserId": null
+  },
+  "md5": "5bb07bd4acf2199f9f93470cbaa37461",
+  "uploadedAt": "2023-12-21T06:10:49.094Z",
+  "weightsLink": "https://www.weights.gg/models/clqet0kue002ohvz1jqaf6cfh",
+  "id": "clqet0kue002ohvz1jqaf6cfh",
+  "type": "v2",
+  "tags": [
+    "RVC v2",
+    "Russian"
+  ],
+  "description": "Владимир Вольфович Жириновский — советский и российский политический деятель. Основатель и председатель Либерально-демократической партии России (1992—2022).",
+  "samples": [],
+  "files": [
+    {
+      "name": "metadata.json",
+      "size": 2858,
+      "md5": "975f987a7f9c4707eb0f13d5d279ec5a"
+    },
+    {
+      "name": "model.index",
+      "size": 58335339,
+      "md5": "8aa9a36f32a53a1169e55fd11757509c"
+    },
+    {
+      "name": "model.pth",
+      "size": 55230228,
+      "md5": "5bb07bd4acf2199f9f93470cbaa37461"
+    }
+  ],
+  "torchMetadata": {
+    "config": {
+      "spec_channels": 1025,
+      "segment_size": 32,
+      "inter_channels": 192,
+      "hidden_channels": 192,
+      "filter_channels": 768,
+      "n_heads": 2,
+      "n_layers": 6,
+      "kernel_size": 3,
+      "p_dropout": 0,
+      "resblock": "1",
+      "resblock_kernel_sizes": [
+        3,
+        7,
+        11
+      ],
+      "resblock_dilation_sizes": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "upsample_rates": [
+        10,
+        10,
+        2,
+        2
+      ],
+      "upsample_initial_channel": 512,
+      "upsample_kernel_sizes": [
+        16,
+        16,
+        4,
+        4
+      ],
+      "emb_channels": null,
+      "spk_embed_dim": 109,
+      "gin_channels": 256,
+      "sr": 40000
+    },
+    "f0": 1,
+    "version": "v2",
+    "extra_info": {
+      "config": [
+        1025,
+        32,
+        192,
+        192,
+        768,
+        2,
+        6,
+        3,
+        0,
+        "1",
+        [
+          3,
+          7,
+          11
+        ],
+        [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ]
+        ],
+        [
+          10,
+          10,
+          2,
+          2
+        ],
+        512,
+        [
+          16,
+          16,
+          4,
+          4
+        ],
+        109,
+        256,
+        40000
+      ],
+      "info": "300epoch",
+      "sr": "40k",
+      "f0": 1,
+      "version": "v2"
+    }
+  },
+  "url": "https://models.weights.gg/clqet0kue002ohvz1jqaf6cfh.zip",
+  "urls": [],
+  "originalFileList": [
+    "metadata.json",
+    "model.index",
+    "model.pth"
+  ]
+}
